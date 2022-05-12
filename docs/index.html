@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app">加载中</div>
+  <script>
+    // 默认app ,可以在此项中自己配置, 就在需要修改的el上加上attribute属性 data-app
+    window.$docsify = {
+      // el: '#main',
+      name: '',
+      repo: '',
+      
+      /** 加载自定义侧边栏 */
+      // 加载 _sidebar.md
+      loadSidebar: true,
+      // *(自定义名称)加载 summary.md
+      // loadSidebar: 'summary.md',
+      subMaxLevel: 2,
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
